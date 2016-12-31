@@ -1,9 +1,12 @@
 ---
+title: Overview of editing a post
+date: '2016-12-15 00:00:00'
 layout: post
-title: "Overview of editing a post"
-description: "Here are the elements of a post"
-og_image: "documentation/sample-image.jpg"
-tags: [basics, example]
+description: Here are the elements of a post
+og_image: about.jpg
+tags:
+- basics
+- example
 ---
 
 ## Headings
