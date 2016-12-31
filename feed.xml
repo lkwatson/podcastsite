@@ -1,0 +1,62 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <language>en-us</language>
+    <webMaster>{{ site.webmaster_email }}</webMaster>
+    <managingEditor>{{ site.webmaster_email }}</managingEditor>
+    <image>
+      <url>{{ site.url }}{% asset_path "notebook.jpg" %}</url>
+      <title>{{ site.name | xml_escape }}</title>
+      <link>{{ site.url }}</link>
+    </image>
+    
+    <itunes:owner>
+      <itunes:name>{{ site.author_name }}</itunes:name>
+      <itunes:email>{{ site.webmaster_email }}</itunes:email>
+    </itunes:owner>
+    
+    <itunes:category text="{{ site.itunes_catergory }}">
+      <itunes:category text="{{ site.itunes_sub_catergory }}"/>
+    </itunes:category>
+    <itunes:keywords>{{ site.itunes_tags }}</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href=""/>
+    
+    <itunes:author>{{ site.author_name }}</itunes:author>
+    <itunes:summary>{{ site.description }}</itunes:summary>
+    <itunes:subtitle>{{ site.short_description }}</itunes:subtitle>
+    
+    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
+    {% for post in site.posts %}
+      {% if post.layout == "podcast" %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.description | xml_escape }}</description>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          
+          <enclosure url="{{ post.podcast_url | xml_escape }}" type="audio/mpeg" length="1" />
+          <guid>{{ post.podcast_url | xml_escape }}</guid>
+          <itunes:duration>{{ post.podcast_listen_time }}</itunes:duration>
+          <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
+          <itunes:subtitle>{{ post.description | xml_escape }}</itunes:subtitle>
+          
+          <link>{{ post.url | absolute_url }}</link>
+        </item>
+      {% else %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.description | xml_escape }}</description>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          
+          <link>{{ post.url | absolute_url }}</link>
+          <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed">
+  <channel>
+    <title>Smart Women I Know</title>
+    <description>Description of the site for feed xml</description>
+    <link>http://localhost:4000</link>
+    <language>en-us</language>
+    <webMaster>email@example.com</webMaster>
+    <managingEditor>email@example.com</managingEditor>
+    <image>
+      <url>http://localhost:4000/assets/notebook.jpg</url>
+      <title>Smart Women I Know</title>
+      <link>http://localhost:4000</link>
+    </image>
+    
+    <itunes:owner>
+      <itunes:name>Desired name here</itunes:name>
+      <itunes:email>email@example.com</itunes:email>
+    </itunes:owner>
+    
+    <itunes:category text="Education">
+      <itunes:category text="Higher Education"/>
+    </itunes:category>
+    <itunes:keywords>tag1, tag2, separate, by, commas,</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href=""/>
+    
+    <itunes:author>Desired name here</itunes:author>
+    <itunes:summary>Description of the site for feed xml</itunes:summary>
+    <itunes:subtitle>Description that is shorter</itunes:subtitle>
+    
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
+        <item>
+          <title>An example podcast post</title>
+          <description>This post includes a player for podcast audio! </description>
+          <pubDate>Sun, 18 Dec 2016 00:00:00 -0800</pubDate>
+          
+          <enclosure url="https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk" type="audio/mpeg" length="1" />
+          <guid>https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk</guid>
+          <itunes:duration>0:23:13</itunes:duration>
+          <itunes:summary>This post includes a player for podcast audio! </itunes:summary>
+          <itunes:subtitle>This post includes a player for podcast audio! </itunes:subtitle>
+          
+          <link>http://localhost:4000/posts/introducing-chalk</link>
+        </item>
+      
+    
+      
+        <item>
+          <title>A post</title>
+          <description>Yet another sample post. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+          <pubDate>Sat, 17 Dec 2016 00:00:00 -0800</pubDate>
+          
+          <link>http://localhost:4000/posts/introducing-chalk</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/introducing-chalk</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Just a sample post</title>
+          <description>Lorem ipsum dolor sit amet.</description>
+          <pubDate>Fri, 16 Dec 2016 00:00:00 -0800</pubDate>
+          
+          <link>http://localhost:4000/posts/configuring-chalk</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/configuring-chalk</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Overview of editing a post</title>
+          <description>Here are the elements of a post</description>
+          <pubDate>Thu, 15 Dec 2016 00:00:00 -0800</pubDate>
+          
+          <link>http://localhost:4000/posts/chalk-sample-post-with-all-elements</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/chalk-sample-post-with-all-elements</guid>
+        </item>
+      
+    
+  </channel>
+</rss>
