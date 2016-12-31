@@ -56,14 +56,14 @@ defaults:
       layout: articles_by_tag
   -
     scope:
-      type: my_tags
+      type: posts
     values:
       layout: post
       description: ""
       tags: []
   -
     scope:
-      type: my_tags
+      type: posts
     values:
       layout: podcast
       description: ""
