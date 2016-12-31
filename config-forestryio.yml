@@ -45,6 +45,14 @@ defaults:
     type: my_tags
   values:
     layout: articles_by_tag
+- scope:
+    type: posts
+  values:
+    layout: podcast
+    description: ''
+    podcast_url: ''
+    podcast_listen_time: ''
+    tags: []
 exclude:
 - ".bowerrc"
 - ".travis.yml"
