@@ -1,9 +1,7 @@
 ---
 title: Test
-date: '2016-12-30 23:04:49'
-layout: podcast
+date: '2016-12-30 23:06:53'
+layout: post
 description: ''
 tags: []
-podcast_url: ''
-podcast_listen_time: ''
 ---
