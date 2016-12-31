@@ -63,7 +63,7 @@ defaults:
       tags: []
   -
     scope:
-      type: posts
+      type: podcasts
     values:
       layout: podcast
       description: ""
