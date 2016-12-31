@@ -58,13 +58,6 @@ defaults:
     scope:
       type: posts
     values:
-      layout: post
-      description: ""
-      tags: []
-  -
-    scope:
-      type: podcasts
-    values:
       layout: podcast
       description: ""
       podcast_url: ""
