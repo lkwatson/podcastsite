@@ -1,28 +1,21 @@
----
-permalink: /404.html
-sitemap: false
----
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ site.name }} | Page not found</title>
+  <title>Smart Women I Know | Page not found</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if site.blog_theme == "light" %}
-    {% stylesheet notfound-light %}
-  {% else %}
-    {% stylesheet notfound-dark %}
-  {% endif %}
+  
+    <link type="text/css" rel="stylesheet" href="/assets/notfound-light.css">
+  
 </head>
 <body>
   <main role="main" class="notfound-wrapper page-background">
     <div class="notfound-content">
-      <h1><a href="{{ '/' | relative_url }}" title="Back to homepage">{{ site.name }}</a></h1>
+      <h1><a href="/" title="Back to homepage">Smart Women I Know</a></h1>
       <p>
-        Sorry, that page couldn't be found. <br> Go back to the <a href="{{ '/' | relative_url }}">homepage</a>
+        Sorry, that page couldn't be found. <br> Go back to the <a href="/">homepage</a>
       </p>
     </div>
   </main>

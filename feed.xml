@@ -1,62 +1,84 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
+    <title>Smart Women I Know</title>
+    <description>Description of the site for feed xml</description>
+    <link></link>
     <language>en-us</language>
-    <webMaster>{{ site.webmaster_email }}</webMaster>
-    <managingEditor>{{ site.webmaster_email }}</managingEditor>
+    <webMaster>email@example.com</webMaster>
+    <managingEditor>email@example.com</managingEditor>
     <image>
-      <url>{{ site.url }}{% asset_path "notebook.jpg" %}</url>
-      <title>{{ site.name | xml_escape }}</title>
-      <link>{{ site.url }}</link>
+      <url>/assets/notebook.jpg</url>
+      <title>Smart Women I Know</title>
+      <link></link>
     </image>
     
     <itunes:owner>
-      <itunes:name>{{ site.author_name }}</itunes:name>
-      <itunes:email>{{ site.webmaster_email }}</itunes:email>
+      <itunes:name>Desired name here</itunes:name>
+      <itunes:email>email@example.com</itunes:email>
     </itunes:owner>
     
-    <itunes:category text="{{ site.itunes_catergory }}">
-      <itunes:category text="{{ site.itunes_sub_catergory }}"/>
+    <itunes:category text="Education">
+      <itunes:category text="Higher Education"/>
     </itunes:category>
-    <itunes:keywords>{{ site.itunes_tags }}</itunes:keywords>
+    <itunes:keywords>tag1, tag2, separate, by, commas,</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href=""/>
     
-    <itunes:author>{{ site.author_name }}</itunes:author>
-    <itunes:summary>{{ site.description }}</itunes:summary>
-    <itunes:subtitle>{{ site.short_description }}</itunes:subtitle>
+    <itunes:author>Desired name here</itunes:author>
+    <itunes:summary>Description of the site for feed xml</itunes:summary>
+    <itunes:subtitle>Description that is shorter</itunes:subtitle>
     
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts %}
-      {% if post.layout == "podcast" %}
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
         <item>
-          <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.description | xml_escape }}</description>
-          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <title>An example podcast post</title>
+          <description>This post includes a player for podcast audio! </description>
+          <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
           
-          <enclosure url="{{ post.podcast_url | xml_escape }}" type="audio/mpeg" length="1" />
-          <guid>{{ post.podcast_url | xml_escape }}</guid>
-          <itunes:duration>{{ post.podcast_listen_time }}</itunes:duration>
-          <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
-          <itunes:subtitle>{{ post.description | xml_escape }}</itunes:subtitle>
+          <enclosure url="https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk" type="audio/mpeg" length="1" />
+          <guid>https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk</guid>
+          <itunes:duration>0:23:13</itunes:duration>
+          <itunes:summary>This post includes a player for podcast audio! </itunes:summary>
+          <itunes:subtitle>This post includes a player for podcast audio! </itunes:subtitle>
           
-          <link>{{ post.url | absolute_url }}</link>
+          <link>/posts/introducing-chalk</link>
         </item>
-      {% else %}
+      
+    
+      
         <item>
-          <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.description | xml_escape }}</description>
-          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <title>A post</title>
+          <description>Yet another sample post. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+          <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
           
-          <link>{{ post.url | absolute_url }}</link>
-          <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+          <link>/posts/introducing-chalk</link>
+          <guid isPermaLink="true">/posts/introducing-chalk</guid>
         </item>
-      {% endif %}
-    {% endfor %}
+      
+    
+      
+        <item>
+          <title>Just a sample post</title>
+          <description>Lorem ipsum dolor sit amet.</description>
+          <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+          
+          <link>/posts/configuring-chalk</link>
+          <guid isPermaLink="true">/posts/configuring-chalk</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Overview of editing a post</title>
+          <description>Here are the elements of a post</description>
+          <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+          
+          <link>/posts/chalk-sample-post-with-all-elements</link>
+          <guid isPermaLink="true">/posts/chalk-sample-post-with-all-elements</guid>
+        </item>
+      
+    
   </channel>
 </rss>
