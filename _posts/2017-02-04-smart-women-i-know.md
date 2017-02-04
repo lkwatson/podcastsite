@@ -1,6 +1,6 @@
 ---
 title: Smart Women I Know
-date: '2017-02-04 14:31:00'
+date: '2017-01-15 17:31:00'
 layout: post
 description: ''
 podcast_url: ''
