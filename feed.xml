@@ -69,16 +69,5 @@
         </item>
       
     
-      
-        <item>
-          <title>Overview of editing a post</title>
-          <description>Here are the elements of a post</description>
-          <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-          
-          <link>/posts/chalk-sample-post-with-all-elements</link>
-          <guid isPermaLink="true">/posts/chalk-sample-post-with-all-elements</guid>
-        </item>
-      
-    
   </channel>
 </rss>
