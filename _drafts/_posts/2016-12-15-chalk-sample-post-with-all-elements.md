@@ -1,5 +1,5 @@
 ---
-title: Overview of editing a post
+title: Editing a Post Example (Do not publish)
 date: '2016-12-15 00:00:00'
 layout: post
 description: Here are the elements of a post
