@@ -53,16 +53,5 @@
         </item>
       
     
-      
-        <item>
-          <title>A post</title>
-          <description>Yet another sample post. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-          <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-          
-          <link>/posts/introducing-chalk</link>
-          <guid isPermaLink="true">/posts/introducing-chalk</guid>
-        </item>
-      
-    
   </channel>
 </rss>
