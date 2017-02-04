@@ -5,7 +5,7 @@ description: Description of the site for feed xml
 short_description: Description that is shorter
 author_name: Desired name here
 webmaster_email: email@example.com
-paginate: 3
+paginate: 5
 paginate_path: "/posts/page/:num/"
 url:  # add site url http://example.com/
 blog_theme: light # Or use dark

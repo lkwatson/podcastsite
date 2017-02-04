@@ -6,7 +6,7 @@ description: The Smart women are succeeding wildly in business. But peel back th
 ---
 
 <ul class="article-list">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts | sort: 'date' | reverse %}
     <li class="article-list-item reveal">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
         <h5>
