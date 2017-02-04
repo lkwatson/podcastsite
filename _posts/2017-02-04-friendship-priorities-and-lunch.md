@@ -5,7 +5,8 @@ layout: post
 description: ''
 podcast_url: ''
 podcast_listen_time: ''
-tags: []
+tags:
+- Post
 ---
 I don’t know when this happened, but I find myself this year on the cusp of my birthday, doing again what I’ve done one or two years in a row now: reading a ‘motivation’ book at night, pasting important things to remember at my bedside, and using the word gratitude to myself in my head (even in my head it feels wrong if you know anything about my general countenance).
 
