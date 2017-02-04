@@ -5,7 +5,8 @@ layout: post
 description: ''
 podcast_url: ''
 podcast_listen_time: ''
-tags: []
+tags:
+- post
 ---
 <span style="letter-spacing: 0.01em;">It’s blown my mind over time how many women I speak with charge me with an energy that nothing, and I mean nothing, can compare to. I keep wanting more.</span>  
 
