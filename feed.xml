@@ -55,22 +55,6 @@
     
       
         <item>
-          <title>An example podcast post</title>
-          <description>This post includes a player for podcast audio! </description>
-          <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
-          
-          <enclosure url="https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk" type="audio/mpeg" length="1" />
-          <guid>https://drive.google.com/uc?export=download&amp;id=0B2LmpXX6EJcnUHY4bzBUSFdHbVk</guid>
-          <itunes:duration>0:23:13</itunes:duration>
-          <itunes:summary>This post includes a player for podcast audio! </itunes:summary>
-          <itunes:subtitle>This post includes a player for podcast audio! </itunes:subtitle>
-          
-          <link>/posts/introducing-chalk</link>
-        </item>
-      
-    
-      
-        <item>
           <title>A post</title>
           <description>Yet another sample post. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
           <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
