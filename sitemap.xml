@@ -2,19 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/tag/podcast/</loc>
-<lastmod>2016-12-30T23:14:29+00:00</lastmod>
-</url>
-<url>
-<loc>/tag/podcast/</loc>
 <lastmod>2016-12-31T07:10:41+00:00</lastmod>
 </url>
 <url>
 <loc>/tag/design/</loc>
-<lastmod>2017-02-04T22:39:03+00:00</lastmod>
+<lastmod>2017-02-04T22:39:31+00:00</lastmod>
 </url>
 <url>
 <loc>/tag/jekyll/</loc>
-<lastmod>2017-02-04T22:39:03+00:00</lastmod>
+<lastmod>2017-02-04T22:39:31+00:00</lastmod>
 </url>
 <url>
 <loc>/posts/friendship-priorities-and-lunch</loc>
@@ -32,6 +28,6 @@
 </url>
 <url>
 <loc>/admin/index.html</loc>
-<lastmod>2017-02-04T22:38:49+00:00</lastmod>
+<lastmod>2017-02-04T22:39:18+00:00</lastmod>
 </url>
 </urlset>
