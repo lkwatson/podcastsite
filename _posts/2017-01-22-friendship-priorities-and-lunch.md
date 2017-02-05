@@ -1,8 +1,10 @@
 ---
 title: Friendship, Priorities and Lunch
-date: '2017-01-22 17:25:00'
+date: '2017-01-22 00:00:00'
 layout: post
-description: 'It’s enough to balance career, home, relationships and all the attendant life stuff that eats our hours. What falls aside? The woman you were, the friends you have, the time when we’re most ourselves.'
+description: It’s enough to balance career, home, relationships and all the attendant
+  life stuff that eats our hours. What falls aside? The woman you were, the friends
+  you have, the time when we’re most ourselves.
 podcast_url: ''
 podcast_listen_time: ''
 tags:

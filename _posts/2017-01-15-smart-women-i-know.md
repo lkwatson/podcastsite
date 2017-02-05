@@ -1,8 +1,9 @@
 ---
 title: Smart Women I Know
-date: '2017-01-15 17:31:00'
+date: '2017-01-15 00:00:00'
 layout: post
-description: 'The Smart women are succeeding wildly in business. But peel back the layers and they’re so much more inspiring than a title tells you. Learn how.'
+description: The Smart women are succeeding wildly in business. But peel back the
+  layers and they’re so much more inspiring than a title tells you. Learn how.
 podcast_url: ''
 podcast_listen_time: ''
 tags:
