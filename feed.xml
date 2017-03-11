@@ -18,10 +18,10 @@
       <itunes:email>email@example.com</itunes:email>
     </itunes:owner>
     
-    <itunes:category text="Education">
-      <itunes:category text="Higher Education"/>
+    <itunes:category text="Business">
+      <itunes:category text="Careers"/>
     </itunes:category>
-    <itunes:keywords>tag1, tag2, separate, by, commas,</itunes:keywords>
+    <itunes:keywords>smart, women, i, know, business, female, leader,</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href=""/>
     
