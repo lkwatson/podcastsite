@@ -7,7 +7,7 @@ author_name: Desired name here
 webmaster_email: email@example.com
 paginate: 5
 paginate_path: "/posts/page/:num/"
-url: http://www.smartwomeniknow.com/ # add site url http://example.com/
+url: http://www.smartwomeniknow.com # add site url http://example.com/
 blog_theme: light # Or use dark
 
 itunes_catergory: Business
