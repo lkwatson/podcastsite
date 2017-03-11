@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 description: How does a girl from a small Rhode Island town become one of the key
   drivers of a transformative biotech start up? Prepare to meet Erin Webster and get
   inspired.
