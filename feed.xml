@@ -10,7 +10,7 @@
     <webMaster>{{ site.webmaster_email }}</webMaster>
     <managingEditor>{{ site.webmaster_email }}</managingEditor>
     <image>
-      <url>{{ site.url }}{% asset_path "notebook.jpg" %}</url>
+      <url>{{ site.url }}{% asset_path "itunes-thumb.jpg" %}</url>
       <title>{{ site.name | xml_escape }}</title>
       <link>{{ site.url }}</link>
     </image>
@@ -25,7 +25,7 @@
     </itunes:category>
     <itunes:keywords>{{ site.itunes_tags }}</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href=""/>
+    <itunes:image href="{{ site.url }}{% asset_path 'itunes-thumb.jpg' %}"/>
     
     <itunes:author>{{ site.author_name }}</itunes:author>
     <itunes:summary>{{ site.description }}</itunes:summary>
