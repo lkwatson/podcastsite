@@ -3,14 +3,14 @@
   <channel>
     <title>Smart Women I Know</title>
     <description>Description of the site for feed xml</description>
-    <link></link>
+    <link>http://www.smartwomeniknow.com/</link>
     <language>en-us</language>
     <webMaster>email@example.com</webMaster>
     <managingEditor>email@example.com</managingEditor>
     <image>
-      <url>/assets/notebook.jpg</url>
+      <url>http://www.smartwomeniknow.com//assets/notebook.jpg</url>
       <title>Smart Women I Know</title>
-      <link></link>
+      <link>http://www.smartwomeniknow.com/</link>
     </image>
     
     <itunes:owner>
@@ -29,7 +29,7 @@
     <itunes:summary>Description of the site for feed xml</itunes:summary>
     <itunes:subtitle>Description that is shorter</itunes:subtitle>
     
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.smartwomeniknow.com//feed.xml" rel="self" type="application/rss+xml" />
     
       
         <item>
@@ -43,7 +43,7 @@
           <itunes:summary>How does a girl from a small Rhode Island town become one of the key drivers of a transformative biotech start up? Prepare to meet Erin Webster and get inspired.</itunes:summary>
           <itunes:subtitle>How does a girl from a small Rhode Island town become one of the key drivers of a transformative biotech start up? Prepare to meet Erin Webster and get inspired.</itunes:subtitle>
           
-          <link>/posts/erin-webster</link>
+          <link>http://www.smartwomeniknow.com//posts/erin-webster</link>
         </item>
       
     
@@ -53,8 +53,8 @@
           <description>It’s enough to balance career, home, relationships and all the attendant life stuff that eats our hours. What falls aside? The woman you were, the friends you have, the time when we’re most ourselves.</description>
           <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
           
-          <link>/posts/friendship-priorities-and-lunch</link>
-          <guid isPermaLink="true">/posts/friendship-priorities-and-lunch</guid>
+          <link>http://www.smartwomeniknow.com//posts/friendship-priorities-and-lunch</link>
+          <guid isPermaLink="true">http://www.smartwomeniknow.com//posts/friendship-priorities-and-lunch</guid>
         </item>
       
     
@@ -64,8 +64,8 @@
           <description>The Smart women are succeeding wildly in business. But peel back the layers and they’re so much more inspiring than a title tells you. Learn how.</description>
           <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
           
-          <link>/posts/smart-women-i-know</link>
-          <guid isPermaLink="true">/posts/smart-women-i-know</guid>
+          <link>http://www.smartwomeniknow.com//posts/smart-women-i-know</link>
+          <guid isPermaLink="true">http://www.smartwomeniknow.com//posts/smart-women-i-know</guid>
         </item>
       
     
