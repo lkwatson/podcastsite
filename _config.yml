@@ -10,9 +10,9 @@ paginate_path: "/posts/page/:num/"
 url:  # add site url http://example.com/
 blog_theme: light # Or use dark
 
-itunes_catergory: Education
-itunes_sub_catergory: Higher Education
-itunes_tags: tag1, tag2, separate, by, commas,
+itunes_catergory: Business
+itunes_sub_catergory: Careers
+itunes_tags: smart, women, i, know, business, female, leader,
 
 # Optional settings
 
