@@ -3,7 +3,7 @@ layout: podcast
 description: How does a girl from a small Rhode Island town become one of the key
   drivers of a transformative biotech start up? Prepare to meet Erin Webster and get
   inspired.
-podcast_url: https://drive.google.com/uc?export=download&id=0Bw8c-xwStfXrRk9CNS1pWVBmZEE
+podcast_url: http://www.smartwomeniknow.com/audio/ErinWebster.mp3
 podcast_listen_time: '28:25'
 tags:
 - podcast
