@@ -1,9 +1,9 @@
 # Mandatory settings
 
 name: Smart Women I Know
-description: Description of the site for feed xml
-short_description: Description that is shorter
-author_name: Desired name here
+description: I've spent a career getting into people's heads, as a writer, a strategist, and a natural empathisizer to, well, basically everyone and everything. If I can say I've gained one thing it's that I've met a lot of really smart, clever, ingenious women who've accomplished a lot in their careers, but usually it's through a story that's even more interesting, inspiring and compelling.  These are the women I know you'll want to meet.  The women who, with humor, grace and a great deal of knowing see the world and work in the world creating profound change, big and small.  These are the women you wanna know. Really.  Just listen.
+short_description: Smart women are succeeding wildly in business. But peel back the layers and they're so much more inspiring than a title tells you. Learn how.
+author_name: Ellen Barnett
 webmaster_email: email@example.com
 paginate: 5
 paginate_path: "/posts/page/:num/"
