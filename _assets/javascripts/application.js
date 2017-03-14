@@ -4,6 +4,11 @@
 
 $(function () {
   $('.fluidbox-trigger').fluidbox();
+  
+  if ($(window).width() < 400){
+    $('#itunes-tab').text("iTunes");
+    console.log("hi")
+  }
 })
 
 // Initialize scrollreveal
@@ -18,10 +23,3 @@ sr.reveal('.reveal', {
   reset: false,
   viewFactor: 0
 });
-
-$(function() {
-  if ($(window).width() < 400){
-    $('#itunes-tab').text("iTunes");
-    console.log("hi")
-  }
-})
