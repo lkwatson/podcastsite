@@ -5,10 +5,9 @@
 $(function () {
   $('.fluidbox-trigger').fluidbox();
   
-  if ($(window).width() < 400)
+  if ($(window).width() < 500)
   {
     $('#itunes-tab').text("iTunes");
-    console.log("hi")
   }
 })
 
