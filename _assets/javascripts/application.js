@@ -20,7 +20,7 @@ sr.reveal('.reveal', {
 });
 
 $(function() {
-  if($(window).width() < 400) {
+  if ($(window).width() < 400){
     $('#itunes-tab').text("iTunes");
     console.log("hi")
   }
