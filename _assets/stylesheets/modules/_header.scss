@@ -123,8 +123,5 @@
   width: 160px;
   @include breakpoint(extra-small) {
     width: 120px;
-    a {
-      content: "iTunes";
-    }
   }
 }
