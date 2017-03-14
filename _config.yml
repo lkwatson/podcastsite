@@ -33,7 +33,7 @@ social:
 assets:
   compress:
     css: true
-    js: true
+    js: false
   features:
     automatic_img_size: false
   sources:
