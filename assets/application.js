@@ -1,1 +1,1 @@
-$(function(){$(".fluidbox-trigger").fluidbox()}),window.sr=ScrollReveal({reset:!0}),sr.reveal(".reveal",{distance:"0",duration:500,easing:"ease-in-out",origin:"top",scale:1,reset:!1,viewFactor:0}),$(function(){$(window).width()<400&&($("#itunes-tab").text("iTunes"),console.log("hi"))});
+$(function(){$(".fluidbox-trigger").fluidbox(),$(window).width()<400&&($("#itunes-tab").text("iTunes"),console.log("hi"))}),window.sr=ScrollReveal({reset:!0}),sr.reveal(".reveal",{distance:"0",duration:500,easing:"ease-in-out",origin:"top",scale:1,reset:!1,viewFactor:0});
