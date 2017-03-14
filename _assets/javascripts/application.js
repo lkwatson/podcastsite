@@ -18,3 +18,9 @@ sr.reveal('.reveal', {
   reset: false,
   viewFactor: 0
 });
+
+$(function() {
+  if($(window).width() < 400) {
+    $('#itunes-tab').text = "iTunes";
+  }
+})
