@@ -4,7 +4,7 @@ description: Lonsdale Koester likes to ask more than answer; listen more than ta
   She's now Policy Director for Gubernatorial Candidate Jay Gonzalaz. There's a delightful
   story behind all her accomplishment.
 podcast_url: http://www.smartwomeniknow.com/audio/LonsdaleKoester.mp3
-podcast_listen_time: '46:28'
+podcast_listen_time: '0:46:28'
 tags:
 - Podcast
 title: Lonsdale Koester
