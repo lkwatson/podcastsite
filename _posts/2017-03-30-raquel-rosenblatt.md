@@ -4,8 +4,9 @@ description: Raquel Rosenblatt is deceptive. Unassuming, deferential and kind to
   a fault, one would never suspect that under such an approachable veneer lives a
   powerhouse of a success story.
 podcast_url: http://www.smartwomeniknow.com/audio/RaquelRosenblatt.mp3
-podcast_listen_time: '27:11'
-tags: 
+podcast_listen_time: '0:27:11'
+tags:
+- Podcast
 title: Raquel Rosenblatt
 date: 2017-03-29 19:37
 ---
