@@ -8,7 +8,7 @@ tags:
 - podcast
 title: Jasmine Martirossian
 date: 2017-05-19 17:04
-og_image: ''
+og_image: jkknk
 ---
 
 
