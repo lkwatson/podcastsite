@@ -3,8 +3,9 @@ layout: podcast
 description: Jasmine Martirossian is an enigma; an always fascinating mix of wisdom,
   humor, and grace driven by one of the most powerful minds I know.
 podcast_url: http://www.smartwomeniknow.com/audio/JasmineMartirossian.mp3
-podcast_listen_time: '38:53'
-tags: []
+podcast_listen_time: '0:38:53'
+tags:
+- podcast
 title: Jasmine Martirossian
 date: 2017-05-19 17:04
 og_image: ''
