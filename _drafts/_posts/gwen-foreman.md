@@ -1,6 +1,9 @@
 ---
 layout: podcast
-description: Here are the elements of a post
+description: Gwen Foreman is the kind of fun, interesting, honest woman that would
+  make it as fun to work with as it would be to share a cocktail. Take a minute and
+  listen as Gwen and I talk work, life and why a blank twitter feed will not mean
+  the end to your career.
 podcast_url: smartwomeniknow.com/audio/
 podcast_listen_time: '0:49:43'
 tags: []
