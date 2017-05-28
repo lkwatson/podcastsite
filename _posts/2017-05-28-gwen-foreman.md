@@ -6,7 +6,8 @@ description: Gwen Foreman is the kind of fun, interesting, honest woman that wou
   the end to your career.
 podcast_url: smartwomeniknow.com/audio/
 podcast_listen_time: '0:49:43'
-tags: []
+tags:
+- podcast
 title: Gwen Foreman
 date: 2017-05-28 19:39
 og_image: ''
