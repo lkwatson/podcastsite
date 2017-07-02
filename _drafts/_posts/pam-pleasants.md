@@ -3,8 +3,8 @@ layout: podcast
 description: Pam Pleasants comes from 3 generations of thinkers and educators. Extraordinarily
   funny and gracious, her presence is one to be reckoned with. You can't help but
   enjoy yourself when you're with her. I promise you you will.
-podcast_url: ''
-podcast_listen_time: ''
+podcast_url: http://www.smartwomeniknow.com/audio/PamPleasants.mp3
+podcast_listen_time: '0:45:27'
 tags: []
 title: Pam Pleasants
 date: 2017-07-02 15:50
